@@ -1,0 +1,21 @@
+{
+  "name": "anthropic-mcp-connector-test",
+  "version": "1.0.0",
+  "description": "TypeScript test for Anthropic MCP Connector",
+  "main": "test-mcp-connector.ts",
+  "scripts": {
+    "test": "tsx test-mcp-connector.ts",
+    "build": "tsc",
+    "dev": "tsx watch test-mcp-connector.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}
